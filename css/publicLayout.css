@@ -1,0 +1,92 @@
+/* CSS Document */
+
+*{
+	padding: 0;
+	margin: 0 auto;
+}
+
+.header
+{
+	height: :100px;
+	padding: :20px;
+	padding-left: 50px;
+	background-color: rgba(0,0,0,0.9);
+	color: white;
+	border: 60px/15px;
+}
+
+.header h1
+{
+	font-size: 20px;
+}
+
+.header h2
+{
+	font-size: 16px;
+}
+
+.main
+{
+	width: 1200px;
+	border: thin solid silver;
+	height: auto;
+	overflow: hidden;
+}
+
+.menu
+{
+	text-align: right;
+	padding: 10px;
+	z-index: 2000;
+}
+
+.content
+{
+	padding: 15px;
+	height: auto;
+	overflow: hidden;
+	height: auto;
+	min-height: 600px;
+}
+
+.footer
+{
+	height: :60px;
+	padding: :10px;
+	padding-left: 50px;
+	background-color: rgba(0,0,0,0.9);
+	color: white;
+	z-index: 1;
+}
+
+.blockLink
+{
+	text-decoration: none;
+	display: block;
+	background: rgba(0,0,0,1.00);
+	font-size: 14px;
+	font-weight: bold;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+table
+{
+	float: left;
+	border: thin solid silver;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	min-width: 800px;
+	max-width:1180px;
+}
+
+td img
+{
+	height: 80px;
+}
+
+td, th
+{
+	border-bottom: dashed thin silver;
+	padding: 3px;
+}

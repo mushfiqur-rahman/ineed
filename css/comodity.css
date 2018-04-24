@@ -1,0 +1,73 @@
+/* CSS Document */
+
+
+.comodity
+{
+	border-radius: 60px/20px;
+	min-height: 400px;
+	height: auto;
+	box-shadow: 0px 3px;
+	border-top: thin inset red;
+	margin: 15px;
+	width: 500px;
+	float: left;
+}
+
+.comodity h2, h3, span, p
+{
+	font-size: 13px;
+	font-weight: bold;
+	display: block;
+	padding: 5px;
+	padding-left: 15px;
+	line-height: 10px
+}
+
+.comodity h3
+{
+	font-size: 12px;
+	font-style: italic;
+}
+
+.comodity span
+{
+	font-size: 12px;
+    font-weight: normal;
+	background-color: rgba(30,29,29,0.1);
+}
+
+.comodity p
+{
+	font-size: 12px;
+    font-weight: normal;
+}
+
+.subImage
+{
+	height: 80px;
+	margin: 5px;
+	border: thin solid silver;
+}
+
+.subImage:hover
+{
+	height: 80px;
+	margin: 5px;
+	border: thin solid silver;
+	transform: rotate(360deg);
+	transition: 1s;
+}
+
+#mainImage
+{
+	width: 100%;
+	border: thin solid silver;
+}
+
+.mainImageAnim
+{
+	width: 100%;
+	border: thin solid silver;
+	transform: rotate(360deg);
+	transition: 1s;
+}
